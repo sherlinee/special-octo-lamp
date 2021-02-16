@@ -12,6 +12,6 @@ def home():
     return render_template(
         'index.html',
         # Display the name on the website.
-        name = name
+        name = Sherline
     )
 
